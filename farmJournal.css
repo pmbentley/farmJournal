@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(flower2.jpg)
+}
+
+body#repeat1 {
+    background: lightcyan;
+    text-align: center;
+}
+
+body#repeat2 {
+    background: honeydew;
+    text-align: center;
+}
+
+body#repeat3 {
+    background: navajowhite;
+    text-align: center;
+}
+
+body#repeat4 {
+    background: lightsteelblue;
+    text-align: center;
+}
+
+section {
+    padding: 10px;
+    margin: 5px;
+}
+
+section#planting {
+    display: inline-block;
+}
+
+section#cooking {
+    display: inline-block;
+}
+
+section#harvesting {
+    display: inline-block;
+}
+
+section#strolling {
+    display: inline-block;
+}
+
+
+h1 {
+    color: darkgreen;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    padding: 20px;
+    color: forestgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+table {
+    width: 400px;
+}
+
+td,
+th {
+    border: 1px solid green;
+    padding: 3px;
+}
+
+ul,
+ol,
+h4 {
+    text-align: left;
+    padding: 10px;
+}
+
+h3 {
+    padding: 20px;
+}
+
+caption {
+    padding: 10px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: lightgreen;
+    border: none;
+    color: darkgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p#facile{
+    background-color: cornsilk;
+    width:300px;
+}
+
+strong {
+    color: darkgreen;
+}
+
+.feedback,
+form,
+.favourite {
+    padding: 20px 30px;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+

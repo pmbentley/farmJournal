@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!--This p tag allows the array to print on the inner HTML, aka the screen.-->
+    <p id="vegetable"></p>
+    <p id="nonesuch"></p>
+    <p id="plenty"></p>
+
+    <script>
+        //This is the array.
+        const plants = ["spinach", "beets", "carrots", "lemongrass"];
+        //This statement refers to the p tag above.
+        document.getElementById("vegetable").innerHTML = "Here is a list of the plants:" + "<br>" + plants.join("<br>");
+
+        const veggies = [1, 2, 3, 4]
+        document.getElementById("nonesuch").innerHTML = veggies + " are the numbers in the veggies array.";
+        let sum = 0;
+
+        for (let i = 0; i < veggies.length; i++)
+            sum += veggies[i];
+
+        document.getElementById("plenty").innerHTML = sum + " is the sum of the veggies array.";
+
+    </script>
+</body>
+
+</html>
