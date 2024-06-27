@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cooking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="farmJournal.css" rel="stylesheet">
+    </head>
+    <body id="repeat2">
+<section id="cooking">
+        <h2>Cooking</h2>
+        <img src="asparagus garlic.jpg">
+        <h3>A Perfect Spring Meal for two</h3>
+        <h4>Ingredients</h4>
+        <ul>
+            <li>a bunch of asparagus from the garden, chopped</li>
+            <li>a green garlic, chopped</li>
+            <li>200 grams of dry pasta</li>
+            <li>a glug of olive oil</li>
+            <li>a red chili, chopped</li>
+            <li>a bunch of chervil, chopped</li>            
+            <li>a piece of parmesan cheese to grate</li>
+        </ul>
+        <ol>
+            <li>Put a pot of water on to boil.</li>
+            <li>Heat a skillet and add olive oil.</li>
+            <li>Cook the pasta in boiling salted water; <br>
+                add the asparagus for three minutes at the end.</li>
+            <li>Meanwhile, gently heat the garlic in the olive oil<br>
+            with the chili and chervil.</li> 
+            <li>Drain the pasta and asparagus and add them to the skillet.
+            <li>Divide between two bowls and grate parmesan on top.</li>
+            </li>   
+        </ol>
+ </section>
+ <section>
+    <p>Check the current month below.
+    Fresh asparagus and green garlic are only available in the Northeast in months 5 (May) or 6 (June).</p><br>
+    <p id="demo"></p>
+        <script>
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d.getMonth() + 1 + " is the current month.";
+ </script>
+</section>
+    <a href="index.html" class="button2">Home</a>
+    </body>
+</html>
