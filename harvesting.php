@@ -16,7 +16,7 @@
             $result=mysqli_query($connect,$query);
             ?>
         
-            
+    <!--Nick wrote the php code to get this table to diplay on my page.-->          
             <table>
                         <caption>Vegetable Harvesting Schedule 2024</caption>
                         <tr><th>Row</th><th>Date</th><th>Vegetable</th><th>Source</th></tr>
